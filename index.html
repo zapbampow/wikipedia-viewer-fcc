@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer - fcc - 2</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <div class="container-fluid h-75">
+		<div id="header" class="row justify-content-center">
+			<div class="text-center">
+				<h1>Wikipedia Search Tool</h1>
+				<h4>Why use Wikipedia's search tool, when you can use this one?</h4>
+			</div>
+		</div>
+    
+		<!-- Start main Content Row -->		 
+		<div id = "main-row" class="row h-100 justify-content-center align-items-center test">
+      
+			<!--  The Start Box/Search Box  -->
+			<div id="start-box"> 
+        
+				<div id="click-to-search" class="text-center">
+          Click the icon to search!!!
+        </div>
+				
+        <div id="search-icon" class="text-center">
+          <i class="fa fa-search fa-5x"></i>
+        </div>
+
+				<div id="search-form-div" class="hidden">
+					<input id="search-form" type="search" name="search-form" placeholder="Search" value="">
+					<span id="delete-button">x</span>
+				</div>
+				
+				<div id="random" class = "text-center"><a href = 'https://en.wikipedia.org/wiki/Special:Random'>Or click here for a random search.</a></div>
+				
+			</div>
+			
+			<!--  The Content from Wikipedia  -->
+			<div id = "wikiContent" class = "col-10 hidden mb-5">
+				
+			</div>
+
+		</div>
+
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

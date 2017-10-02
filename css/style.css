@@ -1,0 +1,98 @@
+.test {
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+#header {
+	background-color: #212529;
+	color: #fff;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h4 {
+	font-style: italic;
+}
+
+#start-box{
+	padding: 10px 0 15px 0;
+	margin-bottom: 10px;
+}
+
+#click-to-search{
+  font-weight: bold;
+	cursor: pointer;
+}
+
+#search-icon{
+  margin: 10px 0 10px 0;
+	cursor: pointer;
+}
+
+#click-to-search{
+	margin: 0 0 10px 0;
+}
+
+.hidden{
+	display: none;
+}
+
+#search-form-div {
+	width: 50%;
+	border: 10px solid;
+	padding: 5px 10px 5px 10px;
+	border-radius: 25px;
+	background-color: white;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+}
+
+#search-form {	
+	border-color: transparent;
+	width: 94%;
+}
+
+#delete-button {
+	font-weight: 700;
+	cursor: pointer;	
+}
+
+#random {
+	font-style: italic;
+	font-size: .85rem;
+	margin: 10px 0 10px 0;
+}
+
+#random a, a:hover {
+	color: #212529;
+}
+
+#wikiContent {
+	outline: 1px red dotted;
+}
+
+.aResult{
+	margin: 15px 0 15px 0;
+	padding: 10px;
+	background-color: #f1f1f1;
+	color: #212529;
+	
+}
+
+aResult a, a:hover {
+	color: #212529;
+}
+
+.thumbnail {
+	margin-right: 5px;
+}
